@@ -1,0 +1,5 @@
+Description: Compares the speed of matrix multiplication between SIMD (SIMD instructions included in the binary via the compiler), OpenMP, and specifically including SIMD via OpenMP pragmas.
+
+Compilation instructions (gcc): gcc -march=native -O3 -fopenmp array_multiply_comparison.c -o array_multiply_comparison
+
+Run the program on your machine with ./array_multiply_OpenMP.
