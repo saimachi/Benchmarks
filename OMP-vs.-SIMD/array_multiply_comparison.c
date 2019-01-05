@@ -65,8 +65,3 @@ int main() {
 	free(buf);
 	free(buf2);
 }
-
-
-
-
-
