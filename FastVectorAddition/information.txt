@@ -1,0 +1,3 @@
+Adds two integer arrays of length 1,000,000 together.
+
+Compilation: gcc -fopenmp -O3 -march=native arr_openmp.c -o arr_openmp
